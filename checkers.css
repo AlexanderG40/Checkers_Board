@@ -1,0 +1,57 @@
+/* Styles the background behind the board */
+body{
+    background-color: linear-gradient(135deg, #3e0435, #120012);
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+/* Style the header */
+header{
+    color: rgb(47, 50, 104);
+    margin-bottom: 20px;
+}
+/* styles for the board */
+#divCheckers{
+    /* set the width of the board */
+    width: 560px;
+    /* set the height of the board */
+    height: 560px;
+    /* set up a border around the board */
+    border: 4px solid black;
+    /* set up a margin */
+    margin: 0 auto;
+    /* added a box shadow */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+/* styles for the chess squares */
+.checkersSquare{
+    float: left; /* align the squares next to each other */
+    width: 70px;/* set the width of each square */
+    height: 70px;/* set the height of each square */
+    background-color: rgb(157, 157, 49);
+    
+}
+
+.checkersBg{
+    background-color: black;
+}
+
+.checkersBg:hover{
+    background-color: #5a3d23;
+    cursor: pointer;
+}
+.checkerPiece{
+    width: 55px;
+    height: 55px;
+    margin: 7.5px;
+    /* make the checkers pieces round-y */
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgb(163, 155, 155);
+}
+
+.checkerPiece-b{
+    background: blue;
+}
+
+.checkerPiece-g{
+    background-color: red;
+}
